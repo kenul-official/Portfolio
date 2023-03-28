@@ -27,6 +27,7 @@ body{
     --color-text: #080808;
     --color-folly:#ff004f;
     --color-folly-hover: #d80145;
+    --color-folly-transparent: #ff0051e1; 
     --color-grey: #353535;
     --color-grey-1: #a5a5a5;
 }
@@ -551,7 +552,7 @@ form input, form textarea{
         font-size: 25px;
     }
     nav ul{
-        background: #080808de;
+        background: var(--color-folly-transparent);
         position: fixed;
         top: 0;
         right: -200px;
