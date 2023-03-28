@@ -19,6 +19,7 @@ body{
     --color-text-btn: #fff;
     --color-folly:#ff004f;
     --color-folly-hover: #d80145;
+    --color-folly-transparent: #ff004fe1;
     --color-grey: #ababab;
     --color-grey-1: #262626;
 }
@@ -26,8 +27,8 @@ body{
     --color-background:#f4f2f7;
     --color-text: #080808;
     --color-folly:#ff004f;
-    --color-folly-hover: #d80145;
-    --color-folly-transparent: #ff004fe1; 
+    --color-folly-hover: #d80145; 
+    --color-folly-transparent: #ff004fe1;
     --color-grey: #353535;
     --color-grey-1: #a5a5a5;
 }
