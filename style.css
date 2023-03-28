@@ -551,7 +551,8 @@ form input, form textarea{
         font-size: 25px;
     }
     nav ul{
-        background: #ff0051ce;
+        background: var(--color-background);
+        fill-opacity: 0.5;
         position: fixed;
         top: 0;
         right: -200px;
