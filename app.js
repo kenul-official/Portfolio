@@ -22,7 +22,7 @@ function openmenu(){
 function closemenu(){
   sidemenu.style.right = "-200px";
 }  
-  const scriptURL = 'https://script.google.com/macros/s/AKfycbxBalszMDhavboG2DTHYna5KsqSVpoRisaDStye7geIpuL-aJzOSgSwM2jepve59Adqhg/exec'
+const scriptURL = 'https://script.google.com/macros/s/AKfycbzSoaXJr3XLiqfWQXQ8Eufe2jpbzOELHDohlHlwHtBZ71c2TqsKjLP-7NISlYmPzndkxg/exec'
   const form = document.forms['submit-to-google-sheet']
   const msg = document.getElementById("msg")
 form.addEventListener('submit', e => {
@@ -31,11 +31,11 @@ form.addEventListener('submit', e => {
       .then(response => {
          msg.innerHTML = "*Message sent successfully!"
           setTimeout(function(){
-            msg.innerHTML = ""
+            msg.innerHTML = "*Thank you for your response"
           },5000)
           form.reset()
         })
-  .catch(error => console.error('*Error!', error.message))
+  .catch(error => console.error(msg.innerHTML = '*Error! Retry click on Submit', error.message))
   })
 function reveal() {
   var reveals = document.querySelectorAll(".reveal");
@@ -52,6 +52,5 @@ function reveal() {
     }
 } 
 window.addEventListener("scroll", reveal);
-
     
     
