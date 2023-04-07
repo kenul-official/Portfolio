@@ -146,6 +146,7 @@ button:hover{
     transition: 0.1s;
 }
 .logo{
+    color: var(--color-text);
     font-size: 50px;
     font-weight: 1000;
     transition: 0.2s;
