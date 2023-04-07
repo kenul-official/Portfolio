@@ -5,6 +5,7 @@
     box-sizing: border-box;
     position: relative;
     transition: 0.5s ease;
+    text-decoration: none;
 }
 html{
     scroll-behavior: smooth;
